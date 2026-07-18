@@ -39,7 +39,7 @@ An interactive **3D Solar System Explorer** built with **Three.js**, allowing us
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://armanforouharfard.github.io/Solar-System-Explorer-ThreeJS-Project/index.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://armanforouharfard.github.io/Solar-System-Explorer-ThreeJS-Project/index.html)
 
 Explore the website here:
 **https://armanforouharfard.github.io/Solar-System-Explorer-ThreeJS-Project/index.html**
