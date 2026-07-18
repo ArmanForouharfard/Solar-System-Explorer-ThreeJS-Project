@@ -29,14 +29,9 @@ An interactive **3D Solar System Explorer** built with **Three.js**, allowing us
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here)*
-
 | Solar System | Earth View | The Sun View | Full View from Top!|
 |---------------|-------------|-------------|-------------|
-| ![Solar System](<img width="1915" height="915" alt="image" src="https://github.com/user-attachments/assets/3dc69837-83ea-4979-a0a1-314ab5e455aa" />) | 
-![Earth](<img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/6b0cf414-f2d0-42ad-8ab3-72ba53883d9a" />) |
-![Sun](<img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/6cf46d98-f88b-4459-ac90-ec3c1ec3ada8" />) | 
-![FullView](<img width="1917" height="914" alt="image" src="https://github.com/user-attachments/assets/f03180ea-e1b2-4ccc-9bc7-a90e5cc52648" />) |
+| ![Solar System](<img width="1915" height="915" alt="image" src="https://github.com/user-attachments/assets/3dc69837-83ea-4979-a0a1-314ab5e455aa" />) |![Earth](<img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/6b0cf414-f2d0-42ad-8ab3-72ba53883d9a" />) | ![Sun](<img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/6cf46d98-f88b-4459-ac90-ec3c1ec3ada8" />) | ![FullView](<img width="1917" height="914" alt="image" src="https://github.com/user-attachments/assets/f03180ea-e1b2-4ccc-9bc7-a90e5cc52648" />) |
 
 ---
 
