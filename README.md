@@ -91,6 +91,22 @@ This project was developed by **Arman Forouharfard** with the assistance of **Cl
 
 ---
 
+## Future Improvements
+
+Because this is WIP, this is actually perfect:
+
+```markdown
+## 🔮 Future Improvements
+
+- 🌍 Realistic planet textures
+- 🌌 Improved galaxy background
+- 💡 Advanced lighting and shadows
+- ✨ Bloom and post-processing effects
+- 🪐 More detailed planetary information
+- 🎨 Custom shaders and atmospheric effects
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
