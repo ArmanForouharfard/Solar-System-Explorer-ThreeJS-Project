@@ -95,7 +95,6 @@ This project was developed by **Arman Forouharfard** with the assistance of **Cl
 
 Because this is WIP, this is actually perfect:
 
-```markdown
 ## 🔮 Future Improvements
 
 - 🌍 Realistic planet textures
