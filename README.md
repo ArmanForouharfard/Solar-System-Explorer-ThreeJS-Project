@@ -106,5 +106,3 @@ See the **LICENSE** file for more information.
 GitHub: https://github.com/YourUsername
 
 LinkedIn: https://linkedin.com/in/YourLinkedIn
-
-Portfolio: https://your-website.com
