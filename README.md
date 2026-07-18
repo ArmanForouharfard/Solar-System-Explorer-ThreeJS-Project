@@ -63,6 +63,14 @@ Explore the website here:
 | Adjust Orbit Speed | Slider |
 
 ---
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/armanforouharfard/Solar-System-Explorer-ThreeJS-Project.git
+
+---
 
 ## 💡 Why I Built This
 
