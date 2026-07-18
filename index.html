@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System Explorer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <!-- Loading screen -->
+  <div id="loading">
+    <p id="loading-text">Initializing solar system</p>
+    <div class="loading-bar-outer"><div class="loading-bar-inner"></div></div>
+  </div>
+
+  <!-- Header -->
+  <div id="header">
+    <h1>Solar <span>System</span> Explorer</h1>
+    <p class="tagline">Eight planets · One star</p>
+  </div>
+
+  <!-- Controls hint -->
+  <div id="controls-hint">
+    <p><span>DRAG</span> Rotate view</p>
+    <p><span>SCROLL</span> Zoom in / out</p>
+    <p><span>CLICK</span> Select planet</p>
+  </div>
+
+  <!-- Speed control -->
+  <div id="speed-control">
+    <label>Orbit speed</label>
+    <input type="range" id="speed-slider" min="0" max="5" step="0.1" value="1" />
+  </div>
+
+  <!-- Planet nav -->
+  <nav id="planet-nav"></nav>
+
+  <!-- Tooltip -->
+  <div id="tooltip"></div>
+
+  <!-- Canvas container -->
+  <div id="canvas-container"></div>
+
+  <!-- Info Panel -->
+  <div id="info-panel">
+    <button id="panel-close" aria-label="Close">✕</button>
+    <p id="panel-eyebrow">Planet</p>
+    <h2 id="panel-title">Name</h2>
+    <p id="panel-subtitle">Subtitle</p>
+    <div id="panel-divider"></div>
+    <div id="panel-facts"></div>
+  </div>
+
+  <!-- Three.js from CDN (importmap + module approach for reliability) -->
+  <script>
+    // Dynamically load Three.js then boot the app
+    (function () {
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/three@0.128.0/build/three.min.js';
+      script.crossOrigin = 'anonymous';
+      script.onload  = () => initSolarSystem();
+      script.onerror = () => {
+        // Fallback to jsDelivr mirror
+        const s2 = document.createElement('script');
+        s2.src = 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js';
+        s2.onload  = () => initSolarSystem();
+        s2.onerror = () => {
+          document.getElementById('loading-text').textContent = 'Failed to load Three.js — check your connection';
+        };
+        document.head.appendChild(s2);
+      };
+      document.head.appendChild(script);
+    })();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
